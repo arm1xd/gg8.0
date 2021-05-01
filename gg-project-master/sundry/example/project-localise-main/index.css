@@ -1,0 +1,94 @@
+
+body{
+    background-color: #c0b6b6;
+    width: 100%;
+    height: 100%;
+    font-family:Verdana, sans-serif;
+    font-style: italic
+    
+}
+.container-gl{
+    background-color: white;
+    width:1200px;
+    height: 1000px;
+    margin-left:300px;
+}
+.logo-container{
+    height: 60px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo-container-center{
+
+height: 50px;
+width:1200px;
+margin-right: 50px;
+display: flex;
+flex-direction: row;
+
+align-items: center;
+}
+.header-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+}
+.header-button-s{
+    padding-right:18px;
+    margin-left: 13px;
+    font-weight:lighter;
+}
+.logo-text{
+    display: flex;
+  flex-direction: row;
+   margin-right:100px ;
+   padding-left: 70px;
+}
+.header-buttons-sign{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left:200px ;
+
+    
+}
+.logo-header{
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.but-sign-1{
+    font-weight: bolder;
+
+ border: 1px solid rgba(68, 68, 68, 0.5);
+box-sizing: border-box;
+border-radius: 3px;
+width: 95px;
+height: 40px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.but-sign-2{
+  background: #FF6336;
+ color:white;
+ margin-left: 20px;
+ font-weight: bolder;
+box-sizing: border-box;
+border-radius: 3px;
+width: 95px;
+height: 40px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.six{
+    font-size: 20px;
+}
