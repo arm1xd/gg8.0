@@ -21,16 +21,49 @@ window.addEventListener("scroll", (Event) => {
   }
 });
 
-let themeBut = document.querySelector(".but_theme");
-let baseURL =
-  "file:///home/student-pc-3/Documents/mikhaylets/gg-project-master/html/home.html/";
-let file = document.querySelector("link[href]");
-let cont = document.querySelector(".container-home");
 
-themeBut.addEventListener("click", function () {
-  if (file.attributes[1].textContent === "../css/light-theme.css") {
-    file.attributes[1].textContent = "../css/dark-theme.css";
-  } else if (file.attributes[1].textContent === "../css/dark-theme.css") {
-    file.attributes[1].textContent = "../css/light-theme.css";
+
+// // theme
+// let themeBut = document.querySelector(".but_theme");
+// let baseURL =
+//   "file:///home/student-pc-3/Documents/mikhaylets/gg-project-master/html/home.html/";
+// let file = document.querySelector("link[href]");
+// let cont = document.querySelector(".container-home");
+
+// themeBut.addEventListener('click', function () {
+//   if (file.attributes[1].textContent === "../css/light-theme.css") {
+//     file.attributes[1].textContent = "../css/dark-theme.css";
+//   } else if (file.attributes[1].textContent === "../css/dark-theme.css") {
+//     file.attributes[1].textContent = "../css/light-theme.css";
+//   }
+// });
+
+
+
+// поп товары 
+blockNg2 = document.querySelectorAll('.ng__block-slot2')
+blockNg1 = document.querySelectorAll('.ng__block-slot1');
+buttonRight = document.querySelector('.but__right');
+buttonLeft = document.querySelector('.but__left');
+buttonLeft.addEventListener('click',function (){
+  
+  for (let index = 0; index < blockNg1.length; index++) {
+     blockNg1[index].style.display='none';
   }
-});
+  for (let index = 0; index < blockNg2.length; index++) {
+    blockNg2[index].style.display="block";
+    
+  }
+
+})
+buttonRight.addEventListener('click',function (){
+  
+  for (let index = 0; index < blockNg1.length; index++) {
+     blockNg1[index].style.display='block';
+  }
+  for (let index = 0; index < blockNg2.length; index++) {
+    blockNg2[index].style.display="none";
+    
+  }
+
+})
