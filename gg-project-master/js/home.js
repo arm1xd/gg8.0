@@ -2,7 +2,6 @@
 let slides = document.querySelectorAll("#slides .slide");
 let currentSlide = 0;
 let slideInterval = setInterval(nextSlide, 5000);
-let nav = document.querySelector(".navigation");
 function nextSlide() {
   slides[currentSlide].className = "slide";
   currentSlide = (currentSlide + 1) % slides.length;
@@ -10,6 +9,7 @@ function nextSlide() {
 }
 
 //animation bg nav scroll\\
+let nav = document.querySelector(".navigation");
 
 window.addEventListener("scroll", (Event) => {
   if (window.pageYOffset > 300) {

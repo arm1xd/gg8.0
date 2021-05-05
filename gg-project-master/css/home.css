@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 body {
   margin: 0px;
   padding: 0px;
@@ -204,7 +205,7 @@ body {
   background-repeat: no-repeat;
 }
 .slide:nth-of-type(5) {
-  background-image: url("https://cdn.unitycms.io/image/ocroped/2001,2000,1000,1000,0,0/m97KsgCdrtA/7At_ZYsfq30BOWQlhhS4H1.jpg");
+  background-image: url("https://images.wallpapersden.com/image/download/rgb-rain_bGtqbWyUmZqaraWkpJRobWllrWdma2U.jpg");
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
 }
@@ -753,14 +754,14 @@ object {
   box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s all;
 }
-.container-info__intro{
+.container-info__bonus{
   width: 100%;
   display: flex;
   flex-direction: column;
   margin-top: 900px;
   height:700px;
 }
-.intro__title{
+.bonus__title{
   /* font-size: 50px;
   margin-top:100px;
   color: black;
@@ -769,7 +770,7 @@ object {
   justify-content: center;
   align-items: center; */
 }
-.intro__middle{
+.bonus__middle{
   width: 100%;
   height: 100%;
   display: flex;
@@ -777,15 +778,82 @@ object {
 
 }
 .middle__left-block{
-  background-image: url(https://img.jjang0u.com/data3/chalkadak/160/201407/17/140560659127311.jpg);
+  background-image: url(https://images.wallpapersden.com/image/download/rgb-rain_bGtqbWyUmZqaraWkpJRobWllrWdma2U.jpg);
   background-repeat: no-repeat;
-  background-size: 100vw 100vh;
+  background-size: cover;
   height: 100%;
   width: 65%;
 }
 .middle__right-block{
+ font-family: 'PT Sans Narrow', sans-serif;
   background-color: black;
   width:35%;
   height: 100%;
 
+}
+.right-block__deschead{
+  height: auto;
+}
+.right-block__deschead,.right-block__descmid,.right-block__descfoot{
+  font-size: 40px;
+  font-weight: bold;
+}
+.right-block_desc{
+  line-height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.right-block__descbut{
+  width: 350px;
+  color:white;
+  font-weight: bold;
+
+}
+.right-block__descbut::after{
+  font-size: 35px;
+    height: 100px;
+  background: #f700ff;
+  content: "GET BONUS";
+  display: -webkit-box;
+  box-align: center;
+  position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: inherit;
+    -webkit-transform: skewX(-12deg);
+    -ms-transform: skewX(-12deg);
+    transform: skewX(-12deg);
+}
+.right-block__descbut:hover{
+  font-size: 35px;
+  color: #f700ff;
+  background: #000000;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.7s all;
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2); ;
+}
+.right-block__descbut:hover::after{
+  font-size: 35px;
+  background: #000000;
+  transition: cubic-bezier(0.23, 1, 0.320, 1) 0.7s all;
+  -webkit-box-shadow: 1px 0px 18px 23px rgba(217,0,217,1);
+  -moz-box-shadow: 1px 0px 18px 23px rgba(217,0,217,1);
+  box-shadow: 1px 0px 18px 23px rgba(217,0,217,1);
+}
+.jojoj{
+  margin-top: 200px;
+  margin-left:200px;
+  width:800px;
+  height: 300px;
 }
