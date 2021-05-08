@@ -1,21 +1,23 @@
-ñîntent
-1 Íàøà öåëü !
-2 Íîâèíêè !
-3 Èíòðî  ?
-4 Çàðåã è ïîëó÷è áîíóñ ?
+﻿соntent
+1 Наша цель p
+2 Новинки p
+3 Интро 
+4 Зарег и получи бонус p
 5 ôóòåð ?
 html
-1 Åâåíò êîìåíòàðèè íàîáîðîò
-2 Íàøà öåëü ïðè íàâåäåíèè âûëàçèò áåëûé òåêñò
-3 ôîðìà äëÿ ðåãèñòðàöèè
+1 Евент коментарии наоборот
+2 Мейби парртнеры  с рамкаим
+3 форма для регистрации
+4 футер
 
 
 
 ?
 1 ìá ñäåëàòü ñïèñîê ïðåèìêùùåñòâ ïîëó÷øå
 anim
-1 êíîïêà äëÿ âõîäà â ìàãàç
-2 âûïàäû ýëåìåíòîâ
+anim
+1 кнопка для входа в магаз
+2 выпады элементов
 3 ðàìêè
 4 ñàìîëåòèê íà ëèíèÿõ
 5 Ïîï òîâàðû àíèìàöèÿ display none
@@ -26,3 +28,10 @@ css
 https://www.w3schools.com/graphics/tryit.asp?filename=trysvg_line
 
 https://tobiz.net/templates/dizajnerskij-shablon-sajta-avtotyuninga/ çàïèøèòå è ñïîðîñèòå
+
+http://seo-design.net/wp-content/uploads/2017/03/2-1-footer-of-eshop-incase.com_-768x569.jpg footer
+http://seo-design.net/wp-content/uploads/2017/03/1-footer-of-eshop-miniplusme.com_-768x374.jpg
+
+
+
+https://incase.com/
