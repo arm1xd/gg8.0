@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    margin-top: 300px;
+    margin-top: 350px;
     height: 550px;
     background-color: #0f0f0f;
   }
@@ -12,7 +12,6 @@
     font-size: 17px;
   }
   .ft-middle {
-    width: 1300px;
     margin: 0 auto;
     padding-top: 70px;
   }
