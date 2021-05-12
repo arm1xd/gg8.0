@@ -1,0 +1,106 @@
+
+
+.container-info__new-games {
+    top: 400px;
+    max-width: 100%;
+  
+    position: relative;
+    height: 700px;
+    background-color: #2c2c2c;
+  }
+  .new-games__middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .ng-block-desc {
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ng-desc-title {
+    font-size: 25px;
+  }
+  .ng-desc-subtitle {
+    margin-left: 90px;
+    font-size: 26px;
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .ng-desc-stars {
+    color: yellow;
+  }
+  .ng__block-slot1 {
+    opacity: 1;
+  
+    position: relative;
+    border-right: 0.7px solid rgba(140, 140, 140, 0.2);
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s all;
+  }
+  .ng__block-slot1:hover {
+    background-color: #3b3b3b;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.45s all;
+    border-right: 2px solid rgba(140, 140, 140, 0.3);
+    transform: scale(1.12);
+  }
+  .ng-img-1 {
+    width: 300px;
+    height: 290px;
+  }
+  .fa-shopping-basket {
+    color: rgb(132, 0, 255);
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s all;
+  }
+  .fa-shopping-basket:hover {
+    color: white;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s all;
+  }
+  .ng__block-slot2 {
+    display: none;
+    border-right: 0.7px solid rgba(140, 140, 140, 0.2);
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s all;
+  }
+  .ng__block-slot2:hover {
+    background-color: #3b3b3b;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.45s all;
+    border-right: 2px solid rgba(140, 140, 140, 0.3);
+    transform: scale(1.12);
+  }
+  .jojo {
+    display: none;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s all;
+  }
+  .but-left-right {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .but__right {
+    width: 60px;
+    background: none;
+    border: none;
+  }
+  .but__left {
+    width: 60px;
+    background: none;
+    border: none;
+  }
+  .but__right:hover {
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s all;
+  }
+  .but__left:hover {
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s all;
+  }
+  

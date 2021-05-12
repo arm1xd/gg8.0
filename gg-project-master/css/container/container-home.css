@@ -1,0 +1,239 @@
+@import url('../import/import.css');
+body {
+  margin: 0px;
+  padding: 0px;
+  color: rgb(255, 0, 157);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-home {
+  width: 100%;
+}
+.navigation {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+  position: absolute;
+}
+.navigation-middle {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+.navigation-logo {
+  font-size: 45px;
+  font-weight: bold;
+}
+.link-nav a {
+  color: rgb(255, 0, 157);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+  border-radius: 20%;
+  font-weight: bold;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 1.5s;
+
+}
+.link-nav a:hover {
+  font-weight: bolder;
+  color: white;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 1.5s;
+}
+.dropmenu {
+  position: relative;
+  display: inline-block;
+}
+.dropmenu-content {
+  position: absolute;
+  display: none;
+  background-color: black;
+  min-width: 107px;
+  z-index: 1;
+  border-radius: 10px;
+}
+.dropmenu-content a {
+  color: rgb(255, 0, 212);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropmenu:hover .dropmenu-content {
+  display: block;
+}
+.theme {
+  margin-right: 30px;
+  font-size: 25px;
+}
+
+.but_theme {
+  background: white;
+}
+.login-registry {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+  width: 250px;
+}
+.btn-registry {
+  text-decoration: none;
+  padding: 15px 15px;
+  border-radius: 5px;
+  background: rgb(55, 0, 255);
+  box-shadow: 0 -3px rgb(0, 8, 77) inset;
+  transition: 0.2s;
+  box-shadow: 0 -3px rgb(12, 0, 56) inset;
+}
+.btn-registry:hover {
+  background: rgb(63, 26, 163);
+  box-shadow: 0 4px rgb(12, 0, 56) inset;
+}
+.btn-registry:active {
+  background: rgb(36, 4, 150);
+  box-shadow: 0 3px rgb(12, 0, 56) inset;
+}
+.btn-registry a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  color: rgb(255, 0, 157);
+}
+.btn-login {
+  font-weight: 700;
+  color: rgb(255, 0, 157);
+  text-decoration: none;
+  padding: 15px 15px;
+  border-radius: 5px;
+  background: rgb(55, 0, 255);
+  box-shadow: 0 -3px rgb(0, 8, 77) inset;
+  transition: 0.2s;
+}
+.btn-login:hover {
+  background: rgb(63, 26, 163);
+  box-shadow: 0 4px rgb(12, 0, 56) inset;
+}
+.btn-login:active {
+  background: rgb(36, 4, 150);
+  box-shadow: 0 -3px rgb(12, 0, 56) inset;
+}
+#slides {
+  position: fixed;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  background-repeat: no-repeat;
+  height: 100vh;
+  z-index: -9999;
+  width: 100vw;
+}
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 2s;
+  -moz-transition: opacity 2s;
+  -o-transition: opacity 2s;
+  transition: opacity 2s;
+}
+.showing {
+  opacity: 1;
+  z-index: 2;
+}
+.slide-button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 -3px rgb(12, 0, 56) inset;
+}
+.slide-button:hover {
+  background: rgb(2, 0, 116);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 3px rgb(16, 0, 73) inset;
+}
+.slide {
+  font-size: 40px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #333;
+  color: #fff;
+}
+.slide:nth-of-type(1) {
+  background-image: url("https://s0.rbk.ru/v6_top_pics/media/img/6/03/756148808557036.jpg");
+  background-size: 100vw 100vh;
+
+  background-repeat: no-repeat;
+}
+.slide:nth-of-type(2) {
+  background-image: url("https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/80/47/6187098cbe91d21a0d9f65618e6632f0598b56f42fb9b796968682.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+.slide:nth-of-type(3) {
+  background-image: url("https://kyiv.comments.ua/img/publications/baYJTWgPxl_47Qffj75ceGgjaauK8t-k.jpeg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+.slide:nth-of-type(4) {
+  background-image: url("https://www.neuro-insight.com/wp-content/uploads/2011/05/Award2.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+.slide:nth-of-type(5) {
+  background-image: url("https://images.wallpapersden.com/image/download/rgb-rain_bGtqbWyUmZqaraWkpJRobWllrWdma2U.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+.slide:nth-of-type(6) {
+  background-image: url("https://alphalytics.tech/wp-content/uploads/2021/03/AdobeStock_294391670.jpeg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+.slide:nth-of-type(7) {
+  background-image: url("https://cdn.shazoo.ru/349799_c0QRuDtqMV_esports.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+.slide-title {
+  color: white;
+}
+.slide-desc {
+  margin: 0 auto;
+  position: absolute;
+  top: 225px;
+  font-family: Courier, monospace;
+  font-size: 70px;
+  font-weight: bolder;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 0, 170);
+  z-index: 9999;
+}

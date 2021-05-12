@@ -1,0 +1,59 @@
+
+
+.container-info__our-advantages {
+    /* top:1000px; */
+    top: 750px;
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background-image: url(https://i.v-s.mobi/2K8dVAkEHhtxQTv0VI7kMLi6zSZX9UQUFOdu0Ga0eeIHuADiM7unuuP-4wVMF0opHQ.jpghttps://wallpapercave.com/wp/wp3244160.jpg);
+    background-size: contain;
+  }
+  .our-advantages__title {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+    color: rgb(255, 0, 157);
+  }
+  .our-advantage__ul {
+    font-size: 30px;
+    list-style: none;
+  }
+  .our-advantage__ul-li {
+    padding-top: 70px;
+    color: #a11adf;
+    font-weight: bold;
+  }
+  .our-advantage__ul-li:before {
+    margin-top: 15px;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #4f5151;
+    content: "";
+    left: 0;
+    transition: 0.3s ease-in-out;
+  }
+  .our-advantage__ul-li:after {
+    position: absolute;
+    border-left: 1px dotted #4f5151;
+    width: 1px;
+    bottom: -12px;
+    content: "";
+    left: 3px;
+  }
+  .our-advantage__ul-li:hover:before {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .our-advantage__ul-li:last-child:after {
+    content: none;
+  }
+  .our-advantage__img {
+    display: flex;
+  }
+  .block__line-our-advantage {
+    display: flex;
+    flex-direction: row;
+  }
